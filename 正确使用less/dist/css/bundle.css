@@ -1,0 +1,8 @@
+.container ul {
+  list-style: none;
+}
+.container ul li a {
+  text-decoration: none;
+  color: gray;
+}
+
