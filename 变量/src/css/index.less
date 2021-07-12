@@ -1,0 +1,19 @@
+@green:green;
+.header,.footer{
+  height: 500px;
+  background-color: @green;
+  ul{
+    list-style: none;
+  }
+}
+
+@footer:footer;
+@width:width;
+.@{footer}{
+  @{width}:150px;
+}
+
+@imgurl:"https://www.baidu.com/img/";
+.header{
+  background: url("@{imgurl}bdlogo.png") no-repeat;
+}
